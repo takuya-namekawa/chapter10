@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #FF9A4B;
+    
+   
+    
+   }
+   
+   main {
+    width: 960px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: nowrap;
+   
+   }
+   
+   .mein-box {
+    width: 300px;
+    padding: 10px;
+    background-color: #EEEEEE;
+    margin-right: 30px;
+    position: relative;
+    
+   }
+   
+   .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:  #FF9A4B;
+    color: white;
+    
+    
+   }
+   
+   .img-box {
+    height: 150px;
+    width: 280px;
+    background-position: bottom   ;
+    background-image: url(flow01.png);
+    background-size: cover;
+    
+ 
+   }
+   
+   .img-box2 {
+    height: 150px;
+    width: 280px;
+    background-position: bottom   ;
+    background-image: url(flow02.png); 
+    background-size: cover;
+    
+ 
+   }
+   
+   .img-box3 {
+    height: 150px;
+    width: 280px;
+    background-position: bottom   ;
+    background-image: url(flow03.png); 
+    background-size: cover;
+    
+ 
+   }
+   
+   .text-box {
+    padding-top: 15px;
+    padding-bottom: 5px;
+   }
+   
+   .mein-box:last-child {
+    margin-right: 0;
+    
+   }
+   
+   
+   footer {
+    width: 100%;
+    height: 50px;
+    background-color: #AAAAAA;
+   
+   }
+   
+   
+   @media screen and (max-width: 768px) {
+    
+    main {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+     justify-content: center;
+    }
+    
+    .mein-box {
+     width: 90%;
+     margin-bottom: 20px;
+      margin-right: 0;
+    }
+ 
+   .img-box {
+    width: 100%;
+    height: 150px;
+   
+    
+   }
+   
+   .img-box2 {
+    width: 100%;
+    height: 150px;
+   }
+   
+  .img-box3 {
+    width: 100%;
+    height: 150px;
+  }
+  
+  
+   
+   } 
+   
+   .icon {
+     padding:  3px;
+    }
